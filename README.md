@@ -1,4 +1,4 @@
-# learning-css
+# learning-css (Bit messy because i was very begginer at that time and didn't thought that one day i will push this to github)
 USE STYLE CONTAINER...style+make another file named style.css(add link.css to current also)
 USE BODY CONTAINER....body{ }
 FOR change background.....backgroung colour
