@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CssGrid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: grid;
+        margin-top: 138vh;
+        height: 90vh;
+        background-color: rgb(141, 215, 238);
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        grid-template-columns: 12% 12% 12% 12%;
+        grid-template-rows: 100px 100px 100px;
+        justify-content: center;
+        align-content: center;
+    
+      }
+      .boxes {
+        
+        background-color: rgb(241, 180, 176);
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="boxes">1</div>
+      <div class="boxes">2</div>
+      <div class="boxes">3</div>
+      <div class="boxes">4</div>
+      <div class="boxes">5</div>
+      <div class="boxes">6</div>
+      <div class="boxes">7</div>
+      <div class="boxes">8</div>
+      <div class="boxes">9</div>
+      <div class="boxes">10</div>
+      <div class="boxes">11</div>
+      <div class="boxes">12</div>
+    </div>
+  </body>
+</html>
